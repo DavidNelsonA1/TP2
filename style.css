@@ -6,11 +6,16 @@
 
 #header
 {
-	background: #ccc;
+	background: #373636;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 5px;
+
+             text-align: center;
+	     color: #fff;
+	     font-family: Calibri;
+	     font-size: 65px;}
 
 #navigation
 {
@@ -45,19 +50,18 @@
 
 #edito
 {
-	clear: left;
+        text-align: center;
+	font-family: Calibri;
+	font-size: 20px;
+	border: 1px solid #373636;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	margin: 10px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
 
 #edito h2
@@ -69,27 +73,36 @@
 
 #news
 {	
+        border: 1px solid #373636;
+        color: #373636;
+	font-family: Calibri;
 	float: left;
 	width: 40%;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	margin: 10px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
+
 
 #footer
 {
+        font-family: Calibri;
+	color: #fff;
 	clear: both;
-	background: #ccc;
+	font-size: 15px;
+	background: #373636;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+}
+
+a{
+
+    color:#fff;
+
 }
